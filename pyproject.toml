@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dmytrolaaa-autoperceive_jd239"
+version = "0.1.0"
+description = "统计各来源片段的贡献量与占比，标出自动驾驶感知工程师·越狱模板的变体识别上最主要的来源"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "dmytrolaaa" }]
+keywords = ["analysis", "observability", "evaluation", "rag"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://dmytrolaaa.github.io"
+Repository = "https://github.com/dmytrolaaa/autoperceive_jd239"
+Issues = "https://github.com/dmytrolaaa/autoperceive_jd239/issues"
+
+[project.scripts]
+autoperceive_jd239 = "autoperceive_jd239:main"
+
+[tool.setuptools]
+py-modules = ["autoperceive_jd239"]
